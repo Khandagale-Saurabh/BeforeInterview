@@ -31,7 +31,7 @@ let {name:n1,age:a1,Fullname:f1}=obj;  //not print name it will undefine
 // console.log( hbb.Sport,hbb.code);//objj inside obj
 
 
-
+//
 
 // ... operator [as element aaata hai] differ ye hai print mai [] on arr1,arr2 k output  mai[] hai
 
@@ -112,4 +112,11 @@ export default Begin;
 ***************Inside/with constructor*********
 1]always first statement super parent call ko call krta
 2]use this.state{}
+
+
+*******************************************************************************************************************************************
+function component :
+Hooks: 
+useState it is use when we want to change the value
+useEffect it is used wh
 
