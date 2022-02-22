@@ -120,4 +120,9 @@ Hooks:
 useState it is use when we want to change the value
 useEffect it is used when page relode or elements rerender we use ()=>(,[count]) when count value chaneg useeffect() will call
 useRef: it is use to change elemet of DOM
+=================================================================================
+
+Redux:
+It is a globa state managemt library. it is use when we want to pass data between non-parent compnent
+
 
