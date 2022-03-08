@@ -1,3 +1,42 @@
+
+##############################################################################################################################
+                                                  Dom Manipulation:
+##############################################################################################################################
+
+/**
+ * 1. Append created element into the parent
+ */
+
+var parent = document.getElementById('practice1');
+
+var new1 = document.createElement('div');
+var new2 = document.createElement('div');
+new1.innerHTML = "Hellow DOM!";
+new2.innerHTML='Hello Child2';
+parent.appendChild(new1);
+parent.appendChild(new2);
+/**
+ * 2. Select the child node and change the color
+ */
+
+var parent2 = document.getElementById('practice2');
+parent2.innerHTML = "<ul></ul>";
+ul_parent2 = parent2.getElementsByTagName('ul')[0];
+
+for (var i = 0; i < 10; i++) {
+  var child = document.createElement('li');
+  child.innerHTML = "Element No." + (i+1); 
+  ul_parent2.appendChild(child);
+}
+
+li5 = ul_parent2.childNodes[4];
+li5.style.color = 'blue';
+
+
+
+##############################################################################################################################
+                               JavaScript
+##############################################################################################################################
 check isuues
 lexical scpoing matlap top to down aur scpoe wise value change hoti hai
 ======================================================
