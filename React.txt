@@ -1,4 +1,7 @@
 
+//PreventDefault
+it is use to prevent form default nature eg: submit is use to submit but if we use preventDefault then we will prevnt it from defualt nature
+
   
 // //Destructure
 
