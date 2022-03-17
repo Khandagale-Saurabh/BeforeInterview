@@ -109,6 +109,12 @@ class Begin extends Component
 export default Begin;
 
 
+
+when to use class and functional component
+In class components, the render method will be called, whenever the state of the components changes. On the other hand, the Functional components render the UI based on the props.
+
+
+
 ***************Inside/with constructor*********
 1]always first statement super parent call ko call krta
 2]use this.state{}
