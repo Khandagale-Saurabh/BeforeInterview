@@ -1,3 +1,7 @@
+//What are error boundaries in ReactJS (16) ?
+Runtime errors during rendering could put out an application in a broken state. React basically unmounts the hole react component tree. What would be great is if we could catch the errors anywhere in their component tree, log those errors, and display a fallback UI. This is where the error boundary takes the spotlight. A class component that implements either one or both of the life cycle methods static getDerivedStateFromError() or componentDidCatch() becomes an error boundary.The static getDerivedStateFromError() is used to render a fallback UI after an error is thrown. The componentDidCatch() is used to log the error information.
+
+
 
 //PreventDefault
 it is use to prevent form default nature eg: submit is use to submit but if we use preventDefault then we will prevnt it from defualt nature
