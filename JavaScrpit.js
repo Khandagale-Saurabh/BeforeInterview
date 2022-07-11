@@ -108,3 +108,8 @@ let obj1=this
 
 let data=obj.abc.myBind(obj);
 data()
+
+
+when you try to acess let data before you declare it will give refernce error
+
+
