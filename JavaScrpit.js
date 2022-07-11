@@ -83,3 +83,28 @@ console.log(ans);
 ==========================================
   
   Bind it is use to to bind with value so that values can be used after wards also; 
+
+
+[Bind ka pollyfills]
+let obj={
+    pers:'Saurabh',
+    id:10,
+    abc:function(bb)
+    {
+        console.log('Name '+this.pers +'  Id '+this.id+" "+bb) 
+    }
+
+}
+
+Function.prototype.myBind=function(...args) 
+{
+let obj1=this
+  return function()
+  {
+     obj1.call(args[0])
+  }  
+}
+
+
+let data=obj.abc.myBind(obj);
+data()
