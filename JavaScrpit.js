@@ -78,3 +78,8 @@ let ans=movies.filter(m18=>{
 .map((g)=>{return g.title})
 
 console.log(ans);
+
+
+==========================================
+  
+  Bind it is use to to bind with value so that values can be used after wards also; 
