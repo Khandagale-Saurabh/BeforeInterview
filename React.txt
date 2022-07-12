@@ -143,3 +143,7 @@ It is a globa state managemt library. it is use when we want to pass data betwee
 
 https://www.opcito.com/blogs/lifecycle-methods-and-hooks-in-react
 
+Pure Component: onlye extends Pure component
+1] If value of count not update it will tell page not to update if value update then then only page rerender;
+
+
