@@ -3,6 +3,8 @@ Runtime errors during rendering could put out an application in a broken state. 
 
 
 
+
+
 //PreventDefault
 it is use to prevent form default nature eg: submit is use to submit but if we use preventDefault then we will prevnt it from defualt nature
 
@@ -138,4 +140,6 @@ useRef: it is use to change elemet of DOM
 Redux:
 It is a globa state managemt library. it is use when we want to pass data between non-parent compnent
 
+
+https://www.opcito.com/blogs/lifecycle-methods-and-hooks-in-react
 
