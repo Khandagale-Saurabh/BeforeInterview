@@ -113,3 +113,12 @@ data()
 when you try to acess let data before you declare it will give refernce error
 
 
+=================================
+  Q]  Flatten an array, i.e [[1, 2, 3], [4, 5], [6]] should give an output of [1, 2, 3, 4, 5, 6]. The source of error in the code
+  function splitArray(array) {
+    return array.reduce((a, b) => {
+        return a.concat(b);
+    });
+}
+
+console.log(splitArray([[1, 2, 3], [4, 5], [6]]));
