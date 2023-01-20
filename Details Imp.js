@@ -47,6 +47,7 @@ user.greet.call(user, 'David', 'Developer'); // Hi, David, John is a Developer
 
 Apply:
 
+
 let user = {
   name: 'John',
   age: 30,
