@@ -122,3 +122,48 @@ when you try to acess let data before you declare it will give refernce error
 }
 
 console.log(splitArray([[1, 2, 3], [4, 5], [6]]));
+
+==================================================================
+  let obj1 = {
+    a: '11',
+    b: '21',
+    c: '31',
+    
+}
+
+let obj2 = {
+    a: '11',
+    c: '31',
+    b: '21',
+    // d: '21'
+
+}
+
+
+function checkobjEquality(obj1, obj2) {
+    let keys1 = Object.keys(obj1)
+    let keys2 = Object.keys(obj2)
+     if(keys1.length !==keys2.length)
+     {
+     return false
+     }
+    for (let y of keys1) {
+
+        if (!Object.hasOwn(obj2, y)) {
+            // console.log(y);
+            return false;
+        }
+
+
+        if (Object.hasOwn(obj2, y)) {
+            if(obj2[y]===obj1[y]){
+                console.log(obj1[y],obj2[y]);
+            }
+            
+        }
+        
+    }
+    return true
+}
+
+console.log(checkobjEquality(obj1, obj2))
